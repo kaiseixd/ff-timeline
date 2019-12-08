@@ -9,7 +9,7 @@ module.exports = override(
     libraryName: 'antd',
     libraryDirectory: 'es',
     style: true
-  })，
+  }),
   addWebpackAlias({
     '@': path.resolve(__dirname, 'src')
   }),
