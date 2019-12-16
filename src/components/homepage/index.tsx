@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Input } from 'antd';
 import { useHistory } from 'react-router-dom';
 
+import Example from '@/components/example/container';
+
 const { Search } = Input;
 
 const Homepage: React.FC = () => {
@@ -17,6 +19,7 @@ const Homepage: React.FC = () => {
           placeholder="input report code"
           onSearch={handleSearch}
         />
+        { Example }
     </div>
   );
 }
