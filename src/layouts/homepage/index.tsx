@@ -2,7 +2,7 @@ import React from 'react';
 import { Input } from 'antd';
 import { useHistory } from 'react-router-dom';
 
-import Example from '@/components/example/container';
+import Example from '@/layouts/example/container';
 
 const { Search } = Input;
 
