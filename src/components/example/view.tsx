@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { observer } from 'mobx-react'
 import { Button } from 'antd';
-import { storeContext } from './container'
+import { storeContext } from '@/stores/example'
 
 const Example: React.FC = observer(() => {
   const store = React.useContext(storeContext)
 
   function handleClick() {
-    store && store.makeFriend(Math.random + '')
+    store && store.makeFriend(Math.random() + '')
   }
 
   return (

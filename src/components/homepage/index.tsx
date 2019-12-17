@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Input } from 'antd';
 import { useHistory } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ const Homepage: React.FC = () => {
           placeholder="input report code"
           onSearch={handleSearch}
         />
-        { Example }
+        <Example />
     </div>
   );
 }
